@@ -1,0 +1,12 @@
+---
+layout: default
+---
+{% include schemas/article.jsonld %}
+<article>
+  <h1>{{ page.title }}</h1>
+  <p class="post-meta">
+    <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%Y年%-m月%-d日' }}</time>
+    {% if page.categories %} | 分类：{{ page.categories }}{% endif %}
+  </p>
+  {{ content }}
+</article>

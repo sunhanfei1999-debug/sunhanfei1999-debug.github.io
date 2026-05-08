@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<h1>{{ site.title }}</h1>
+<p>{{ site.description }}</p>
+
+{% if site.posts.size > 0 %}
+<h2>文章列表</h2>
+<ul class="post-list">
+{% for post in site.posts %}
+  <li>
+    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+    <p class="post-meta">
+      <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%Y年%-m月%-d日' }}</time>
+      {% if post.categories %} | {{ post.categories }}{% endif %}
+    </p>
+    {% if post.description %}
+    <p>{{ post.description }}</p>
+    {% else %}
+    <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>
+{% else %}
+<p>暂无文章。</p>
+{% endif %}
