@@ -1,0 +1,6 @@
+{% if page.layout == 'post' %}
+  {% include schemas/article.jsonld %}
+{% endif %}
+{% if page.url == '/about/' %}
+  {% include schemas/person.jsonld %}
+{% endif %}

@@ -1,7 +1,10 @@
-theme: jekyll-theme-minimal
+theme: minima
 title: "UFLPA供应链合规情报站"
 url: "https://sunhanfei1999-debug.github.io"
 description: "专注于UFLPA执法预测与跨境供应链合规分析"
 author:
   name: "孙含飞"
   url: "https://sunhanfei1999-debug.github.io/about"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
