@@ -5,7 +5,7 @@ permalink: /about/
 ---
 {% include schemas/person.jsonld %}
 
-# 孙汉飞
+# 孙含飞
 
 UFLPA供应链合规分析师，专注于中国企业出口合规与CBP跨境执法情报研究。
 
