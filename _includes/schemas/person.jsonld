@@ -1,0 +1,20 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "孙汉飞",
+  "url": "{{ site.url }}/about",
+  "sameAs": [
+    "https://github.com/sunhanfei1999-debug",
+    "https://www.zhihu.com/people/你的知乎ID",
+    "https://www.linkedin.com/in/你的LinkedInID"
+  ],
+  "description": "UFLPA供应链合规分析师，专注于中国企业出口合规与CBP跨境执法情报研究",
+  "jobTitle": "供应链合规分析师",
+  "knowsAbout": ["UFLPA合规", "跨境供应链", "CBP执法", "出口管制", "实体清单"],
+  "worksFor": {
+    "@type": "Organization",
+    "name": "{{ site.title | escape }}"
+  }
+}
+</script>

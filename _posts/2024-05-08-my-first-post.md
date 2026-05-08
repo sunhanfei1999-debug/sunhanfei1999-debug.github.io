@@ -3,7 +3,8 @@ layout: post
 title: "如何预测美国CBP的UFLPA执法"
 date: 2024-05-08
 categories: 美国供应链合规
-tags: [供应链,合规, 美国UFLPA]
+tags: [供应链, 合规, 美国UFLPA]
+description: "本文整合UFLPA执法三年来积累的情报分析框架，为中国出口企业提供可操作的四维预测体系，涵盖公开信息监测、执法数据解读、利益相关方图谱和行业风险预判。"
 ---
 # 如何预测美国CBP的UFLPA执法？一套可操作的情报框架
 
