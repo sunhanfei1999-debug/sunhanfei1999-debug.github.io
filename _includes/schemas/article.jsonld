@@ -8,7 +8,7 @@
   "dateModified": "{% if page.last_modified_at %}{{ page.last_modified_at | date: '%Y-%m-%d' }}{% else %}{{ page.date | date: '%Y-%m-%d' }}{% endif %}",
   "author": {
     "@type": "Person",
-    "name": "{{ site.author.name | default: '孙汉飞' }}",
+    "name": "{{ site.author.name | default: '孙含飞' }}",
     "url": "{{ site.url }}/about"
   },
   "publisher": {
